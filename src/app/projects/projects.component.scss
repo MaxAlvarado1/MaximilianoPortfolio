@@ -1,0 +1,123 @@
+.btn-check:checked+.FS {
+    background-color: #52BE80;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label.FS {
+    background-color: #85929E;
+    padding: 15px;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn-check:checked+.DM {
+    background-color: #85C1E9 ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label.DM {
+    background-color: #85929E;
+    padding: 15px;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn-check:checked+.DA {
+    background-color: #D2B4DE;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label.DA {
+    background-color: #85929E;
+    padding: 15px;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn-check:checked+.DV {
+    background-color: #FAD7A0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label.DV {
+    background-color: #85929E;
+    padding: 15px;
+    border-radius: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+label {
+    user-select: none;
+}
+
+@media only screen and (max-width: 960px) {
+    label {
+        line-height: 1.5em;
+        min-height: 4.5em;
+        width: 100%;
+    }
+}
+
+a {
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.card {
+    border-radius: 10px;
+    min-height: 100%;
+    .card-body {
+    border-radius: 10px;
+    }
+    img {
+        border-radius: 10px;
+        border: 1px solid var(--primary-color);
+    }
+    &.FS {
+        background-color: #52BE80;
+    }
+    &.DM {
+        background-color: #85C1E9;
+    }
+    &.DA {
+        background-color: #D2B4DE;
+    }
+    &.DV {
+        background-color: #FAD7A0;
+    }
+}
+
+.card-body  {
+    .card-text {
+        min-height: 70px;
+    }
+    h3, h4, p {
+        color: black;
+    }
+    a {
+        display:inline-block;
+        color: var(--primary-color);
+        text-decoration: none;
+        background-color: var(--third-color);
+        padding: 10px;
+        border-radius: 10px;
+        &:hover {
+            background-color: var(--secondary-color);
+        }
+    }
+}
+    
+
+

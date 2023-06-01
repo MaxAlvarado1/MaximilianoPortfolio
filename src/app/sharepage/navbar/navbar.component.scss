@@ -1,0 +1,27 @@
+* {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+
+    .navbar-brand {
+        font-size: 28px;
+        color: var(--primary-color);
+    }
+        .ma {
+            font-size: 28px;
+            color: var(--third-color);
+        }
+
+    .navbar-nav {
+        .nav-link.active-link {
+            color: var(--third-color)
+        }
+
+        .nav-link:hover {
+            color: var(--third-color)
+        }
+    }
+}

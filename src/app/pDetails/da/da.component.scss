@@ -1,0 +1,75 @@
+h1, .sites h2, li, .desc h3, h4 {
+    color: var(--secondary-color);
+    a {
+        text-decoration: none;
+        color: var(--third-color);
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+
+h3 {
+    color: var(--third-color)
+}
+
+.bi.bi-arrow-right {
+    font-size: 40px;
+}
+
+.p {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 15px;
+    height: min-content;
+    h4 {
+        color: var(--primary-color)
+    }
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.r button {
+    margin: 0;
+    padding: 0;
+}
+
+.r button p {
+    display:inline-block;
+    font-size: 40px;
+    color: var(--third-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    &:hover {
+        color: var(--secondary-color)
+    }
+}
+
+.modal-content {
+    background-color: var(--primary-color);
+
+    .modal-body .resume {
+        height: 70vh;
+        embed {
+           height: 100%;
+           width: 100%;
+        }
+    }
+    .close {
+        background-color: var(--secondary-color);
+        color: var(--primary-color)
+    }
+    .download {
+        background-color: var(--third-color);
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+    }
+}

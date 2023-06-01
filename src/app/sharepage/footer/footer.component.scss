@@ -1,0 +1,39 @@
+* {
+    background-color: var(--secondary-color);
+    color: var(--primary-color)
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    position: sticky;
+    top: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: var(--third-color);
+}
+
+p {
+    margin: 0;
+    i {
+        font-size: 18px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.link a {
+    display:inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--third-color);
+    padding: 16px;
+    border-radius: 10px;
+    
+    i {
+        background-color: var(--third-color);
+    }
+}

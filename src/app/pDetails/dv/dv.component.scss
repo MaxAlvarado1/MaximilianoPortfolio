@@ -1,0 +1,10 @@
+h1, .sites h2, li, .desc h3, h4 {
+    color: var(--secondary-color);
+    a {
+        text-decoration: none;
+        color: var(--third-color);
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}

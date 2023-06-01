@@ -1,0 +1,29 @@
+a {
+    display:inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--third-color);
+    padding: 16px;
+    border-radius: 10px;
+    &:hover {
+        background-color: var(--secondary-color);
+    }
+}
+
+i {
+    color: var(--primary-color);
+}
+
+img {
+    object-fit: scale-down;
+    max-width: 100%
+}
+
+.name {
+    min-height: 400px;
+    max-height: 100%;
+}
+
+.max {
+    color: var(--secondary-color);
+}

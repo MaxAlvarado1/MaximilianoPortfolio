@@ -1,0 +1,79 @@
+<div class="container text-center mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-1 my-1">
+            <h2>Show:</h2>
+        </div>
+        <div class="col-6 col-lg my-1">
+            <input type="checkbox" class="btn-check" id="FS" checked autocomplete="off" (change)="true" #FS> 
+            <label class="FS" for="FS">Full-Stack Websites</label>
+        </div>
+        <div class="col-6 col-lg my-1">
+            <input type="checkbox" class="btn-check" id="DM" checked autocomplete="off" (change)="true" #DM>
+            <label class="DM" for="DM">Database Management</label>
+        </div>
+        <div class="col-6 col-lg my-1">
+            <input type="checkbox" class="btn-check" id="DA" checked autocomplete="off" (change)="true" #DA>
+            <label class="DA" for="DA">Data Analysis</label>
+        </div>
+        <div class="col-6 col-lg my-1">
+            <input type="checkbox" class="btn-check" id="DV" checked autocomplete="off" (change)="true" #DV>
+            <label class="DV" for="DV">Data Visualization</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 mt-5" *ngIf="FS.checked">
+            <div class="card FS">
+                <a href="projects/FullStack">
+                    <div class="card-body">
+                        <h3>Full-Stack Website</h3>
+                        <img src="assets\images\aldineamericaSS.jpg" class="card-img-top" alt="...">
+                        <h4 class="card-title my-3">www.AldineAmerica.com</h4>
+                        <p class="card-text">A full-stack website developed for a local auto salvage yard.</p>
+                        <a href="#" class="btn">More Info</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5" *ngIf="DM.checked">
+            <div class="card DM">
+                <a href="projects/DataManage">
+                    <div class="card-body">
+                        <h3>Database Management</h3>
+                        <img src="assets\images\museumSS.jpg" class="card-img-top" alt="...">
+                        <h4 class="card-title my-3">Houston Art Museum Website</h4>
+                        <div class="text"></div>
+                        <p class="card-text">A complex synthetic database system that can be managed through a full-stack website.</p>
+                        <a href="#" class="btn">More Info</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5" *ngIf="DA.checked">
+            <div class="card DA">
+                <a href="projects/DataAnalysis">
+                    <div class="card-body">
+                        <h3>Data Analysis</h3>
+                        <img src="assets\images\bullet.jpg" class="card-img-top" alt="...">
+                        <h4 class="card-title my-3">Analysis of Gun Violence</h4>
+                        <p class="card-text">Analysis report using real data and machine learning to predict if a victim was killed by gun violence based on the case's variables.</p>
+                        <a href="#" class="btn">More Info</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5" *ngIf="DV.checked">
+            <div class="card DV">
+                <a href="projects/DataVis">
+                    <div class="card-body">
+                        <h3>Data Visualization</h3>
+                        <img src="assets\images\music.jpg" class="card-img-top" alt="...">
+                        <h4 class="card-title my-3">Music and Mental Health</h4>
+                        <p class="card-text">A Power BI report to visualize how different types of music affects various mental health issues.</p>
+                        <a href="#" class="btn">More Info</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,29 @@
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1, .sites h2, li, .desc h3 {
+    color: var(--secondary-color);
+    a {
+        text-decoration: none;
+        color: var(--third-color);
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+
+h3 {
+    color: var(--third-color)
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,64 @@
+video, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1, .sites h2, li, .desc h3, h4 {
+    color: var(--secondary-color);
+    a {
+        text-decoration: none;
+        color: var(--third-color);
+        &:hover {
+            color: var(--secondary-color);
+        }
+    }
+}
+
+h3 {
+    color: var(--third-color)
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+button p {
+    display:inline-block;
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--third-color);
+    padding: 16px;
+    border-radius: 10px;
+    margin: 0;
+    &:hover {
+        background-color: var(--secondary-color);
+    }
+}
+
+.modal-content {
+    background-color: var(--primary-color);
+
+    .modal-body .resume {
+        height: 70vh;
+        embed {
+           height: 100%;
+           width: 100%;
+        }
+    }
+    .close {
+        background-color: var(--secondary-color);
+        color: var(--primary-color)
+    }
+    .download {
+        background-color: var(--third-color);
+        a {
+            text-decoration: none;
+            color: var(--primary-color);
+        }
+    }
+}
