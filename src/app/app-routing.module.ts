@@ -14,10 +14,10 @@ const routes: Routes = [
   {path: 'about', component:AboutComponent},
   {path: 'projects', component:ProjectsComponent},
   {path: 'contact', component:ContactComponent},
-  {path: 'projects/FullStack', component:FSComponent},
-  {path: 'projects/DataManage', component:DMComponent},
-  {path: 'projects/DataAnalysis', component:DAComponent},
-  {path: 'projects/DataVis', component:DVComponent}
+  {path: 'FullStack', component:FSComponent},
+  {path: 'DataManage', component:DMComponent},
+  {path: 'DataAnalysis', component:DAComponent},
+  {path: 'DataVis', component:DVComponent}
 ];
 
 @NgModule({
