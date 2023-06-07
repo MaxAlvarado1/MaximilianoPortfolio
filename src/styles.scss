@@ -4,13 +4,14 @@
 }
 
 :root {
-    --primary-color: #EBEBEB ;
-    --secondary-color: #8AA399;
-    --third-color: #f7adbe;
+    --primary-color: #C5CBE3 ;
+    --secondary-color: #4056A1;
+    --third-color: #F13C20;
+
 }
 
 html, body {
     min-height: 100vh;
-    font-family: 'Bakbak One', serif;
+    font-family: 'Fredoka', serif;
     background-color: var(--primary-color);
 }
