@@ -1,17 +1,17 @@
 a {
     display:inline-block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     background-color: var(--third-color);
     padding: 16px;
     border-radius: 10px;
     &:hover {
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
     }
 }
 
 i {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 img {

@@ -27,13 +27,14 @@ a {
 
 .link a {
     display:inline-block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
-    background-color: var(--third-color);
+    background-color: var(--primary-color);
     padding: 16px;
     border-radius: 10px;
     
     i {
-        background-color: var(--third-color);
+        color: var(--secondary-color);
+        background-color: var(--primary-color);
     }
 }

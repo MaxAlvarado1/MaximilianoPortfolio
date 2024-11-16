@@ -8,6 +8,7 @@ import { FSComponent } from './pDetails/fs/fs.component';
 import { DMComponent } from './pDetails/dm/dm.component';
 import { DAComponent } from './pDetails/da/da.component';
 import { DVComponent } from './pDetails/dv/dv.component';
+import { MlComponent } from './pDetails/ml/ml.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'FullStack', component:FSComponent},
   {path: 'DataManage', component:DMComponent},
   {path: 'DataAnalysis', component:DAComponent},
-  {path: 'DataVis', component:DVComponent}
+  {path: 'DataVis', component:DVComponent},
+  {path: 'MachineLearning', component:MlComponent}
 ];
 
 @NgModule({

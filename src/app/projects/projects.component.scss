@@ -60,6 +60,7 @@ label.DV {
 
 label {
     user-select: none;
+    color: var(--background-color);
 }
 
 @media only screen and (max-width: 960px) {
@@ -82,8 +83,9 @@ a {
     border-radius: 10px;
     }
     img {
+        height: 250px;
         border-radius: 10px;
-        border: 1px solid var(--primary-color);
+        border: 1px solid var(--secondary-color);
     }
     &.FS {
         background-color: #52BE80;
@@ -92,6 +94,9 @@ a {
         background-color: #85C1E9;
     }
     &.DA {
+        background-color: #D2B4DE;
+    }
+    &.ML {
         background-color: #D2B4DE;
     }
     &.DV {
@@ -108,13 +113,13 @@ a {
     }
     a {
         display:inline-block;
-        color: var(--primary-color);
+        color: var(--secondary-color);
         text-decoration: none;
-        background-color: var(--third-color);
+        background-color: var(--primary-color);
         padding: 10px;
         border-radius: 10px;
         &:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--third-color);
         }
     }
 }

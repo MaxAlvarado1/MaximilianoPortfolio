@@ -29,19 +29,19 @@ ul {
 
 button p {
     display:inline-block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
-    background-color: var(--third-color);
+    background-color: var(--primary-color);
     padding: 16px;
     border-radius: 10px;
     margin: 0;
     &:hover {
-        background-color: var(--secondary-color);
+        background-color: var(--third-color);
     }
 }
 
 .modal-content {
-    background-color: var(--primary-color);
+    background-color: var(--third-color);
 
     .modal-body .resume {
         height: 70vh;
@@ -51,8 +51,8 @@ button p {
         }
     }
     .close {
-        background-color: var(--secondary-color);
-        color: var(--primary-color)
+        background-color: var(--primary-color);
+        color: var(--secondary-color)
     }
     .download {
         background-color: var(--third-color);

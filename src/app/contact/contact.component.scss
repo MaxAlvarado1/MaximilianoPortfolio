@@ -1,6 +1,9 @@
 a {
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
+    &:hover {
+        color: var(--primary-color);
+    }
 }
 
 i {
@@ -13,10 +16,9 @@ h1 {
 }
 
 button {
-    background-color: var(--third-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     &:hover {
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
+        background-color: var(--third-color);
     }
 }

@@ -14,6 +14,7 @@ import { FSComponent } from './pDetails/fs/fs.component';
 import { DMComponent } from './pDetails/dm/dm.component';
 import { DAComponent } from './pDetails/da/da.component';
 import { DVComponent } from './pDetails/dv/dv.component';
+import { MlComponent } from './pDetails/ml/ml.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DVComponent } from './pDetails/dv/dv.component';
     FSComponent,
     DMComponent,
     DAComponent,
-    DVComponent
+    DVComponent,
+    MlComponent
   ],
   imports: [
     BrowserModule,

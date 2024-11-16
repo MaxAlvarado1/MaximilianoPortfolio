@@ -1,13 +1,13 @@
 button p {
     display:inline-block;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-decoration: none;
     background-color: var(--third-color);
     padding: 16px;
     border-radius: 10px;
     margin: 0;
     &:hover {
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
     }
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 i {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 img {
@@ -30,7 +30,11 @@ img {
 }
 
 .modal-content {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
+
+    .modal-title {
+        color: var(--primary-color);
+    }
 
     .modal-body .resume {
         height: 70vh;
@@ -40,14 +44,14 @@ img {
         }
     }
     .close {
-        background-color: var(--secondary-color);
-        color: var(--primary-color)
+        background-color: var(--primary-color);
+        color: var(--secondary-color)
     }
     .download {
         background-color: var(--third-color);
         a {
             text-decoration: none;
-            color: var(--primary-color);
+            color: var(--secondary-color);
         }
     }
 }
